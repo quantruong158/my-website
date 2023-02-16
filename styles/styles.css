@@ -1,0 +1,165 @@
+.logo-container {
+  display: flex;
+  height: 100%;
+  color: white;
+  align-items: center;
+  font-style: italic;
+  font-weight: 700;
+}
+.logo-container p {
+  flex: 1;
+  margin: 0 0 0 10px;
+  user-select: none;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60px;
+}
+.logo img {
+  height: 70%;
+}
+.nav-container {
+  flex: 1;
+  background-color: #0f1954;
+}
+.nav-container ul {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  list-style: none;
+  margin: 0;
+}
+.nav-container ul li {
+  height: 100%;
+}
+.nav-link {
+  color: white;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
+  text-align: center;
+}
+.nav-link:hover {
+  font-size: 1.2em;
+  padding: 0 20px;
+  background-color: #150d4a;
+}
+.general-info,
+.introduction {
+  background-color: #2e3e57;
+  border-radius: 10px;
+  padding: 10px;
+}
+.general-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  color: white;
+}
+.general-info h2 {
+  text-align: center;
+  margin: 0;
+}
+.additional-info {
+  font-size: 1.2em;
+  width: 100%;
+  margin: 0 25px;
+}
+.additional-info p {
+  margin: 10px;
+}
+.pfp {
+  aspect-ratio: 1/1;
+  width: 60%;
+  max-width: 500px;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  justify-content: space-between;
+}
+.upper-half {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  gap: 15px;
+}
+.intro-text {
+  flex: 2 2 200px;
+  font-size: 1.2em;
+  padding-left: 15px;
+}
+.intro-text h2 {
+  font-size: 2em;
+}
+.academic-result,
+.lower-half,
+.pfp {
+  background-color: #49638a;
+  margin: 15px;
+  border-radius: 10px;
+}
+.academic-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+}
+.academic-result h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 1.5em;
+  margin: 0;
+}
+.academic-result p {
+  margin: 5px;
+}
+.logo-bk {
+  background-color: #395784;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.academic-result img {
+  width: 50px;
+}
+.lower-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.lower-half h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+.lower-half img {
+  width: 10%;
+  margin: 5px;
+}
+.tech-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

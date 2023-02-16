@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  background-color: #0E213E;
+  height: 1000px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  background-color: #0F1954;
+  height: 60px;
+  justify-content: space-between;
+}
+main {
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 1em;
+  justify-content: center;
+}
